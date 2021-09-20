@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const axiosClient = axios.create({
-    baseURL: 'http://localhost:3000/',
+    baseURL: process.env.REACT_APP_API_URL,
     headers: {
       "Access-Control-Allow-Origin": "http://localhost:3001/",
       'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, PATCH',
