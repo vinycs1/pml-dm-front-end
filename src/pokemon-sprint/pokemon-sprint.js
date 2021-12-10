@@ -5,7 +5,7 @@ export const PokemonSprint =() =>{
     const [pokemon, setPokemon] = useState()
 
     useEffect(()=>{
-        axios.get(`https://pokeapi.co/api/v2/pokemon/${154}`)
+        axios.get(`https://pokeapi.co/api/v2/pokemon/${155}`)
         .then(res => {
             setPokemon(res.data)
         });
