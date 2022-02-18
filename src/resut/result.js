@@ -25,9 +25,9 @@ export const Result =()=>{
                 <tbody>
             {result.map((result, index) => (
                 <tr key={result.name}>
-                    <td>{index +1}</td>
-                    <td>{result.name}</td>
-                    <td>{result.awnser}</td>
+                    <td style={{color: 'white'}}>{index +1}</td>
+                    <td style={{color: 'white'}}>{result.name}</td>
+                    <td style={{color: 'white'}}>{result.awnser}</td>
                 </tr>))}
                 </tbody>
             </table>

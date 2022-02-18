@@ -1,22 +1,24 @@
 import './App.css';
-import {Header} from './header/header'
-import {PokemonSprint} from './pokemon-sprint/pokemon-sprint'
-import {AnwserInput} from './anwser/anwser-input'
-import {Result} from './resut/result'
+import {Header} from './header/header';
+import {AnwserInput} from './anwser/anwser-input';
+import {Result} from './resut/result';
+import {CavaleirosDoZodiacoSprint} from "./cavaleiros-do-zodiaco/cavaleiros-do-zodiaco-sprint";
 
- function  App() {
+function App() {
 
-  return (
-    <div className="App">
-      <div style={{display:"flex", flexDirection:"column", alignItems: 'center  '}}>
-      <Header/>
-      <PokemonSprint/>
-      <AnwserInput/>
+    return (
+        <div className="App">
+            <div>
+                <div style={{display: "flex", flexDirection: "column", alignItems: 'center  '}}>
+                    <Header/>
+                    <CavaleirosDoZodiacoSprint/>
+                    <AnwserInput/>
 
-      <Result/>
-      </div>
-    </div>
-  );
+                    <Result/>
+                </div>
+            </div>
+        </div>
+    );
 }
 
 export default App;

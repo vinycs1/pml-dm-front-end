@@ -22,7 +22,7 @@ export  const AnwserInput = () => {
 
   return(
     <div style={{width: '300px'}}>
-      {showError && <div>Preenche os bagulhos ai</div>}
+      {showError && <div style={{color: 'white'}} >Preenche os bagulhos ai</div>}
         <MembersSelector onChange={(value) => setValue(prev => ({...prev, memberId: value.value }))}/>
         <Textfield
         value={value.anwser} 
