@@ -25,9 +25,6 @@ export const AnwserInput = () => {
             {showError && <div style={{color: 'white'}}>Preenche os bagulhos ai</div>}
             <MembersSelector onChange={(value) => setValue(prev => ({...prev, memberId: value.value}))}/>
             <Textfield
-                style={{
-                    margin: '8px',
-                }}
                 value={value.anwser}
                 onChange={(e) => setValue(prev => ({...prev, anwser: e.target.value}))}/>
             <Button appearance="primary" onClick={onSubmit}>Submit</Button>
