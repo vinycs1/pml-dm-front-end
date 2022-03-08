@@ -15,8 +15,8 @@ export const CavaleirosDoZodiacoSprint = () => {
 
         <img
             src={`https://diegochagas.com/saint-seiya-api/${cavaleiro?.image}`}
-            height="500px"
-            width="500px"
+            height="400px"
+            width="400px"
             alt={cavaleiro?.name}
         />
     );
