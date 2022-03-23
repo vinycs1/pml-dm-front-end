@@ -12,9 +12,9 @@ export const CavaleirosDoZodiacoSprint = () => {
     }, []);
 
     return (
-
+        //src={`https://diegochagas.com/saint-seiya-api/${cavaleiro?.image}`}
         <img
-            src={`https://diegochagas.com/saint-seiya-api/${cavaleiro?.image}`}
+            src={"https://diegochagas.com/saint-seiya-api/assets/cloth-schemes/athena-saints/gemini-saga.jpg"}
             height="400px"
             width="400px"
             alt={cavaleiro?.name}
