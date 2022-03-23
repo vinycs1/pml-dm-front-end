@@ -5,7 +5,7 @@ export const CavaleirosDoZodiacoSprint = () => {
     const [cavaleiro, setCavaleiro] = useState();
 
     useEffect(() => {
-        axios.get(`https://saint-seiya-api.herokuapp.com/api/character/${370}`)
+        axios.get(`https://saint-seiya-api.herokuapp.com/api/character/${397}`)
             .then(res => {
                 setCavaleiro(res.data);
             });
