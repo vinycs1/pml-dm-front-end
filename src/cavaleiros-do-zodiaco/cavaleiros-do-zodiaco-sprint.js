@@ -10,9 +10,9 @@ export const CavaleirosDoZodiacoSprint = () => {
                 setCavaleiro(res.data);
             });
     }, []);
-
+   //src={`https://diegochagas.com/saint-seiya-api/${cavaleiro?.image}`}
     return (
-        //src={`https://diegochagas.com/saint-seiya-api/${cavaleiro?.image}`}
+      
         <img
             src={"https://diegochagas.com/saint-seiya-api/assets/cloth-schemes/athena-saints/gemini-saga.jpg"}
             height="400px"
